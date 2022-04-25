@@ -8,11 +8,11 @@ The goal of this wiki is to provide a starting point for ROS1 users to start upd
 
 ## Organization
 
-There are three main sections in this guide as well as some supplementary material and in the future a step by step tutorial to deliberately migrate a ROS1 package to ROS2. The three sections are as follows:
+There are three main sections in this guide as well as some supplementary material and in the future a step-by-step tutorial to deliberately migrate a ROS1 package to ROS2. The three sections are as follows:
 
 ### -[Code Formatting](https://github.com/ninjajoe9/ROS-ROS2-Guide/wiki/Code-Formatting) and Migration
 
-ROS2 has a specific Object Oriented manner of organizing nodes, topics and communication so examples how to transition specific lines of code from one version to the other, as well as information on how to organize code in the file system is included here.
+ROS2 has a specific object-oriented manner of organizing nodes, topics and communication so examples how to transition specific lines of code from one version to the other, as well as information on how to organize code in the file system is included here.
 
 ### -[ROS CLI](https://github.com/ninjajoe9/ROS-ROS2-Guide/wiki/ROS-CLI)
 
@@ -32,4 +32,4 @@ This guide assumes familiarity with ROS1. Additionally, ROS2 relies heavily on O
 
 __Acknowledgements__
 
-A final note, Thank you to Edouard Renard of 'Robotics Back-end' on [YouTube](https://www.youtube.com/channel/UCelRThOKlWMnpjqr5EBq6tg) and 'ROS for Beginners' on [Udemey](https://www.udemy.com/course/ros-for-beginners/). Much of the code you see here is based on his instruction and recomendations for styling as good practice for developers in the ROS community. The format for the templates is from his examples and used with permission given in the tutorials I used in my personal learning journey, although the entirty of this work has been develped or independently recreated by me. Thank you.  
+A final note, Thank you to Edouard Renard of 'Robotics Back-end' on [YouTube](https://www.youtube.com/channel/UCelRThOKlWMnpjqr5EBq6tg) and 'ROS for Beginners' on [Udemey](https://www.udemy.com/course/ros-for-beginners/). Much of the code you see here is based on his instruction and recommendations for styling as good practice for developers in the ROS community. The format for the templates is from his examples and used with permission given in the tutorials I used in my personal learning journey, although the entirety of this work has been developed or independently recreated by me. Thank you.  
