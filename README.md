@@ -1,4 +1,4 @@
-# Welcome to the ROS -> ROS2-Guide wiki!
+# Welcome to the ROS -> ROS2 Guide wiki!
 
 This repository has been primarily created as a platform to host a wiki for topics involving ROS1 to ROS2 migration. Please navigate to the Wiki tab of this repository or click the links below for moreinformation. Some code for examples will be included in the repository and I will read and update issues as they are posted, but their focus should be primarily on the Wiki itself. I hope this guide is useful to you. Thanks for visiting.
 
