@@ -12,7 +12,7 @@ class ExamplePublisher(Node):
         self.timer_ = self.create_timer(0.5, self.publish_message)
         self.get_logger().info("Example publisher started")
 
-    def publish_news(self):
+    def publish_message(self):
         msg = String()
         msg.data = "This is a test message"
         self.publisher_.publish(msg)
@@ -20,7 +20,7 @@ class ExamplePublisher(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = RobotNewsStationNode()
+    node = ExamplePublisher()
     rclpy.spin(node)
     rclpy.shutdown()
 
