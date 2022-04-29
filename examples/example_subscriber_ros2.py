@@ -10,13 +10,13 @@ class ExampleSubscriber(Node):
         self.subscriber_ = self.create_subscription(String, "example_topic", self.callback_robot_news, 10)
         self.get_logger().info("Example subscriber started")
 
-    def callback_robot_news(self, msg):
+    def callback_robot_info(self, msg):
         self.get_logger().info("Message Recieved: ")
         self.get_logger().info(msg.data)
 
 def main(args=None):
     rclpy.init(args=args)
-    node = SmartphoneNode()
+    node = ExampleSubscriber()
     rclpy.spin(node)
     rclpy.shutdown()
 
